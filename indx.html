@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"> Ibrahem </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="p-5 text-center bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8 text-md-start">
+                    <h1 class="display-4 fw-bold">Hello! I'm Ibrahem</h1>
+                    <p class="lead">A Front-End Web Developer specializing in *HTML, **CSS, and **JavaScript*.</p>
+                    <a href="#projects" class="btn btn-primary btn-lg mt-3">Discover My Work</a>
+                </div>
+                <div class="col-md-4 mt-3 mt-md-0">
+                    <img src="images/profile.jpg" class="img-fluid rounded-circle shadow-lg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Latest Projects</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 project-card shadow-sm">
+                        <img src="images/project1.jpg" class="card-img-top" alt="Project Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce Platform</h5>
+                            <p class="card-text">A fully responsive and dynamic platform for online sales built with Bootstrap.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 project-card shadow-sm">
+                        <img src="images/project2.jpg" class="card-img-top" alt="Project Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Admin Dashboard UI</h5>
+                            <p class="card-text">Building an interactive admin interface using charts and JavaScript.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 project-card shadow-sm">
+                        <img src="images/project3.jpg" class="card-img-top" alt="Project Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Corporate Website</h5>
+                            <p class="card-text">A service-oriented company website design with an advanced booking form.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me & Skills</h2>
+            <p class="text-center mb-5">I am passionate about building appealing and user-friendly web experiences.</p>
+            <!-- Skills -->
+            <h3 class="mt-4">Technical Skills</h3>
+            <div class="mb-3">
+                <label class="form-label">HTML5 & CSS</label>
+                <div class="progress" style="height: 25px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Python</label>
+                <div class="progress" style="height: 25px;">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">C++</label>
+                <div class="progress" style="height: 25px;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Ibrahem Portfolio. All rights reserved.</p>
+            <div class="mt-2">
+                <a href="#" class="text-white mx-2"><i class="fab fa-github fa-lg"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
